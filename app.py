@@ -289,7 +289,7 @@ class SACISApp(tk.Tk):
     def check_conn(self):
         try:
             test_connection()
-            messagebox.showinfo("DB", "Conexión OK (ver consola).")
+            messagebox.showinfo("DB", "ConexionOK (ver consola).")
         except Exception as e:
             messagebox.showerror("DB", f"Error: {e}")
 
